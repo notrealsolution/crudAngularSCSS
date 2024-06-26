@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ExpenseListComponent } from './components/expense-list/expense-list.component';
 import { ExpenseFormComponent } from './components/expense-form/expense-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     ExpenseListComponent,
     ExpenseFormComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
