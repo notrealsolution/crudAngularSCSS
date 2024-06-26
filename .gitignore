@@ -1,19 +1,19 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/budget-buddy-app/dist
-/budget-buddy-app/tmp
-/budget-buddy-app/out-tsc
-/budget-buddy-app/bazel-out
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
 # Node
-/budget-buddy-app/node_modules
+/node_modules
 npm-debug.log
 yarn-error.log
 
 # IDEs and editors
 .idea/
-/.project
+.project
 .classpath
 .c9/
 *.launch
@@ -22,15 +22,19 @@ yarn-error.log
 
 # Visual Studio Code
 .budget-buddy-app/.vscode/*
+.budget-buddy-api/.vscode/*
 !.budget-buddy-app/.vscode/settings.json
 !.budget-buddy-app/.vscode/tasks.json
 !.budget-buddy-app/.vscode/launch.json
 !.budget-buddy-app/.vscode/extensions.json
 .budget-buddy-app/.history/*
+.budget-buddy-api/.history/*
 
 # Miscellaneous
-/budget-buddy-app/.angular/cache
-.sass-cache/
+.budget-buddy-app/.angular/cache
+.budget-buddy-app/.sass-cache/
+.budget-buddy-api/.angular/cache
+.budget-buddy-api/.sass-cache/
 /connect.lock
 /coverage
 /libpeerconnection.log
@@ -40,7 +44,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
 
 # Laravel specific
 /budget-buddy-api/vendor
