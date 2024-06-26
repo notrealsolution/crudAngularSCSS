@@ -1,0 +1,77 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/budget-buddy-app/dist
+/budget-buddy-app/tmp
+/budget-buddy-app/out-tsc
+/budget-buddy-app/bazel-out
+
+# Node
+/budget-buddy-app/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+/.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.budget-buddy-app/.vscode/*
+!.budget-buddy-app/.vscode/settings.json
+!.budget-buddy-app/.vscode/tasks.json
+!.budget-buddy-app/.vscode/launch.json
+!.budget-buddy-app/.vscode/extensions.json
+.budget-buddy-app/.history/*
+
+# Miscellaneous
+/budget-buddy-app/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# Laravel specific
+/budget-buddy-api/vendor
+/budget-buddy-api/.env
+/budget-buddy-api/.env.backup
+/budget-buddy-api/.env.production
+/budget-buddy-api/storage/*.key
+/budget-buddy-api/public/storage
+/budget-buddy-api/public/hot
+/budget-buddy-api/public/build
+
+# PHPUnit
+/budget-buddy-api/.phpunit.cache
+/budget-buddy-api/.phpunit.result.cache
+
+# Node
+/budget-buddy-api/node_modules
+npm-debug.log
+yarn-error.log
+
+# PHP tools
+/budget-buddy-api/.phpactor.json
+
+# Homestead
+/budget-buddy-api/Homestead.json
+/budget-buddy-api/Homestead.yaml
+
+# IDEs and editors
+/budget-buddy-api/.fleet
+/budget-buddy-api/.idea
+/budget-buddy-api/.vscode
+
+# Miscellaneous
+auth.json
