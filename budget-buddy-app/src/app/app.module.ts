@@ -7,6 +7,7 @@ import { ExpenseListComponent } from './components/expense-list/expense-list.com
 import { ExpenseFormComponent } from './components/expense-form/expense-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
     ExpenseListComponent,
     ExpenseFormComponent,
     HomeComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
